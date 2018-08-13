@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+body {
+	background-color: gray;
+}
+
+</style>
+</head>
+<body>
+	<form action="Resume" method="get">
+		<table align="center">
+			<tr>
+				<h1 align="center">Resume</h1>
+			</tr>
+			<tr>
+				<td>First Name</td>
+				<td><input type="text" name="firstname"></td>
+			</tr>
+			<tr>
+				<td>Last Name</td>
+				<td><input type="text" name="lastname"></td>
+			</tr>
+			<tr>
+				<td>Gender :</td>
+				<td><input type="radio" name="gender" value="male">Male<input
+					type="radio" name="gender" value="female">Female</td>
+			</tr>
+			<tr>
+				<td>Highest Qualification</td>
+				<td><select name="HQ">
+						<option value="Bachelors">Bachelors</option>
+						<option value="Masters">Masters</option>
+						<option value="High School">High School</option>
+						</select></td>
+			</tr>
+			<tr>
+				<td>Date of birth</td>
+				<td><input type="date" name="dob" ></td>
+			</tr>
+			<tr>
+				<td>Hobbies</td>
+				<td><select multiple name="Hobby">
+						<option value="Dance">Dance</option>
+						<option value="Boxing">Boxing</option>
+						<option value="Gaming">Gaming</option>
+						<option value="Watching TV">Watching TV</option>
+						<option value="Playing Chess">Playing Chess</option>
+						<option value="Gossiping">Gossiping</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Address</td>
+				<td><textarea rows=5 cols=20 name="address"></textarea></td>
+			</tr>
+			<tr>
+				<td>Skills</td>
+				<td>C<input type="checkbox" name="skills value="C">
+					C++<input type="checkbox" name="skills" value="C++"> 
+					JAVA<input type="checkbox" name="skills" value="Java">
+					 PYTHON<input type="checkbox" name="skills" value="Python"></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="email" name="email"></td>
+			</tr>
+			<tr>
+				<td>Website</td>
+				<td><input type="url" name="weburl"></td>
+			</tr>
+			<tr>
+				<td>Summary</td>
+				<td><textarea rows=5 cols=20></textarea></td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Submit"></td>
+				<td><input type="reset" value="Clear"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
